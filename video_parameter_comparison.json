@@ -1,0 +1,902 @@
+{
+  "source": {
+    "path": "/app/runtime/uploads/d1f2b2c2a3cd4c04b58bfd4b6b192439.mov",
+    "size_bytes": 195473001,
+    "sha256": "fb8f7f7b2aa167da4b2bb6642efaa9a55b32c9d7b65c00bb64f4aa6e10bfde53"
+  },
+  "generated": {
+    "path": "/app/runtime/color_grading/upstream/9830ab8d-e8a7-4f91-8265-33f02c5bcf13/graded.mov",
+    "size_bytes": 196935125,
+    "sha256": "30b462505805a8edcc30b1de7998c88076973c465b5c3ea91f694236b105e868"
+  },
+  "video_stream_fields": {
+    "codec_name": {
+      "source": "prores",
+      "generated": "prores",
+      "equal": true
+    },
+    "profile": {
+      "source": "Standard",
+      "generated": "Standard",
+      "equal": true
+    },
+    "level": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "codec_tag_string": {
+      "source": "apcn",
+      "generated": "apcn",
+      "equal": true
+    },
+    "width": {
+      "source": 3840,
+      "generated": 3840,
+      "equal": true
+    },
+    "height": {
+      "source": 2160,
+      "generated": 2160,
+      "equal": true
+    },
+    "sample_aspect_ratio": {
+      "source": "1",
+      "generated": null,
+      "equal": null
+    },
+    "display_aspect_ratio": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "pix_fmt": {
+      "source": "yuv422p10le",
+      "generated": "yuv422p10le",
+      "equal": true
+    },
+    "bits_per_raw_sample": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "color_range": {
+      "source": 1,
+      "generated": 1,
+      "equal": true
+    },
+    "color_space": {
+      "source": 1,
+      "generated": 1,
+      "equal": true
+    },
+    "color_transfer": {
+      "source": 1,
+      "generated": 1,
+      "equal": true
+    },
+    "color_primaries": {
+      "source": 1,
+      "generated": 1,
+      "equal": true
+    },
+    "chroma_location": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "r_frame_rate": {
+      "source": "60000/1001",
+      "generated": "60000/1001",
+      "equal": true
+    },
+    "avg_frame_rate": {
+      "source": "60000/1001",
+      "generated": "60000/1001",
+      "equal": true
+    },
+    "time_base": {
+      "source": "1/60000",
+      "generated": "1/60000",
+      "equal": true
+    },
+    "start_pts": {
+      "source": 0,
+      "generated": 0,
+      "equal": true
+    },
+    "duration_ts": {
+      "source": 87087,
+      "generated": 87087,
+      "equal": true
+    },
+    "duration": {
+      "source": 1.45145,
+      "generated": 1.45145,
+      "equal": true
+    },
+    "bit_rate": {
+      "source": 1077382644,
+      "generated": 1085441851,
+      "equal": false
+    },
+    "nb_frames": {
+      "source": 87,
+      "generated": 87,
+      "equal": true
+    },
+    "nb_read_frames": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "field_order": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "side_data_list": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    }
+  },
+  "fields": {
+    "codec_name": {
+      "source": "prores",
+      "generated": "prores",
+      "equal": true
+    },
+    "profile": {
+      "source": "Standard",
+      "generated": "Standard",
+      "equal": true
+    },
+    "level": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "codec_tag_string": {
+      "source": "apcn",
+      "generated": "apcn",
+      "equal": true
+    },
+    "width": {
+      "source": 3840,
+      "generated": 3840,
+      "equal": true
+    },
+    "height": {
+      "source": 2160,
+      "generated": 2160,
+      "equal": true
+    },
+    "sample_aspect_ratio": {
+      "source": "1",
+      "generated": null,
+      "equal": null
+    },
+    "display_aspect_ratio": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "pix_fmt": {
+      "source": "yuv422p10le",
+      "generated": "yuv422p10le",
+      "equal": true
+    },
+    "bits_per_raw_sample": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "color_range": {
+      "source": 1,
+      "generated": 1,
+      "equal": true
+    },
+    "color_space": {
+      "source": 1,
+      "generated": 1,
+      "equal": true
+    },
+    "color_transfer": {
+      "source": 1,
+      "generated": 1,
+      "equal": true
+    },
+    "color_primaries": {
+      "source": 1,
+      "generated": 1,
+      "equal": true
+    },
+    "chroma_location": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "r_frame_rate": {
+      "source": "60000/1001",
+      "generated": "60000/1001",
+      "equal": true
+    },
+    "avg_frame_rate": {
+      "source": "60000/1001",
+      "generated": "60000/1001",
+      "equal": true
+    },
+    "time_base": {
+      "source": "1/60000",
+      "generated": "1/60000",
+      "equal": true
+    },
+    "start_pts": {
+      "source": 0,
+      "generated": 0,
+      "equal": true
+    },
+    "duration_ts": {
+      "source": 87087,
+      "generated": 87087,
+      "equal": true
+    },
+    "duration": {
+      "source": 1.45145,
+      "generated": 1.45145,
+      "equal": true
+    },
+    "bit_rate": {
+      "source": 1077382644,
+      "generated": 1085441851,
+      "equal": false
+    },
+    "nb_frames": {
+      "source": 87,
+      "generated": 87,
+      "equal": true
+    },
+    "nb_read_frames": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "field_order": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "side_data_list": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    }
+  },
+  "container_fields": {
+    "format_name": {
+      "source": "mov,mp4,m4a,3gp,3g2,mj2",
+      "generated": "mov,mp4,m4a,3gp,3g2,mj2",
+      "equal": true
+    },
+    "format_long_name": {
+      "source": "QuickTime / MOV",
+      "generated": "QuickTime / MOV",
+      "equal": true
+    },
+    "start_time": {
+      "source": 0.0,
+      "generated": 0.0,
+      "equal": true
+    },
+    "duration": {
+      "source": 1.45145,
+      "generated": 1.45145,
+      "equal": true
+    },
+    "size": {
+      "source": 195473001,
+      "generated": 196935125,
+      "equal": false
+    },
+    "bit_rate": {
+      "source": 1077394335,
+      "generated": 1085453167,
+      "equal": false
+    },
+    "metadata": {
+      "source": {
+        "major_brand": "qt  ",
+        "minor_version": "512",
+        "compatible_brands": "qt  ",
+        "creation_time": "2026-07-31T07:00:32.000000Z",
+        "encoder": "Blackmagic Design DaVinci Resolve Studio"
+      },
+      "generated": {
+        "major_brand": "qt  ",
+        "minor_version": "512",
+        "compatible_brands": "qt  ",
+        "creation_time": "2026-07-31T07:00:32.000000Z",
+        "encoder": "Lavf61.1.100"
+      },
+      "equal": false
+    }
+  },
+  "stream_structure": {
+    "source_stream_count": 2,
+    "generated_stream_count": 2,
+    "source_stream_types": [
+      "video",
+      "data"
+    ],
+    "generated_stream_types": [
+      "video",
+      "data"
+    ],
+    "same_stream_types_and_order": true,
+    "source_streams": [
+      {
+        "index": 0,
+        "codec_type": "video",
+        "codec_name": "prores",
+        "codec_long_name": "Apple ProRes (iCodec Pro)",
+        "profile": "Standard",
+        "level": null,
+        "codec_tag_string": "apcn",
+        "width": 3840,
+        "height": 2160,
+        "sample_aspect_ratio": "1",
+        "display_aspect_ratio": null,
+        "pix_fmt": "yuv422p10le",
+        "sample_fmt": null,
+        "sample_rate": null,
+        "channels": null,
+        "channel_layout": null,
+        "frame_size": null,
+        "bits_per_coded_sample": 24,
+        "bits_per_raw_sample": null,
+        "color_range": 1,
+        "color_space": 1,
+        "color_transfer": 1,
+        "color_primaries": 1,
+        "chroma_location": null,
+        "r_frame_rate": "60000/1001",
+        "avg_frame_rate": "60000/1001",
+        "time_base": "1/60000",
+        "start_pts": 0,
+        "duration_ts": 87087,
+        "duration": 1.45145,
+        "bit_rate": 1077382644,
+        "nb_frames": 87,
+        "nb_read_frames": null,
+        "field_order": null,
+        "side_data_list": null,
+        "metadata": {
+          "creation_time": "2026-07-31T07:00:32.000000Z",
+          "handler_name": "VideoHandler",
+          "vendor_id": "appl",
+          "encoder": "Apple ProRes 422",
+          "timecode": "01:29:16;42"
+        },
+        "disposition": "default"
+      },
+      {
+        "index": 1,
+        "codec_type": "data",
+        "codec_name": null,
+        "codec_long_name": null,
+        "profile": null,
+        "level": null,
+        "codec_tag_string": null,
+        "width": null,
+        "height": null,
+        "sample_aspect_ratio": null,
+        "display_aspect_ratio": null,
+        "pix_fmt": null,
+        "sample_fmt": null,
+        "sample_rate": null,
+        "channels": null,
+        "channel_layout": null,
+        "frame_size": null,
+        "bits_per_coded_sample": null,
+        "bits_per_raw_sample": null,
+        "color_range": null,
+        "color_space": null,
+        "color_transfer": null,
+        "color_primaries": null,
+        "chroma_location": null,
+        "r_frame_rate": null,
+        "avg_frame_rate": null,
+        "time_base": "1/60000",
+        "start_pts": 0,
+        "duration_ts": 87087,
+        "duration": 1.45145,
+        "bit_rate": null,
+        "nb_frames": 1,
+        "nb_read_frames": null,
+        "field_order": null,
+        "side_data_list": null,
+        "metadata": {
+          "creation_time": "2026-07-31T07:00:32.000000Z",
+          "language": "eng",
+          "handler_name": "TimeCodeHandler",
+          "timecode": "01:29:16;42"
+        },
+        "disposition": "default"
+      }
+    ],
+    "generated_streams": [
+      {
+        "index": 0,
+        "codec_type": "video",
+        "codec_name": "prores",
+        "codec_long_name": "Apple ProRes (iCodec Pro)",
+        "profile": "Standard",
+        "level": null,
+        "codec_tag_string": "apcn",
+        "width": 3840,
+        "height": 2160,
+        "sample_aspect_ratio": null,
+        "display_aspect_ratio": null,
+        "pix_fmt": "yuv422p10le",
+        "sample_fmt": null,
+        "sample_rate": null,
+        "channels": null,
+        "channel_layout": null,
+        "frame_size": null,
+        "bits_per_coded_sample": 24,
+        "bits_per_raw_sample": null,
+        "color_range": 1,
+        "color_space": 1,
+        "color_transfer": 1,
+        "color_primaries": 1,
+        "chroma_location": null,
+        "r_frame_rate": "60000/1001",
+        "avg_frame_rate": "60000/1001",
+        "time_base": "1/60000",
+        "start_pts": 0,
+        "duration_ts": 87087,
+        "duration": 1.45145,
+        "bit_rate": 1085441851,
+        "nb_frames": 87,
+        "nb_read_frames": null,
+        "field_order": null,
+        "side_data_list": null,
+        "metadata": {
+          "creation_time": "2026-07-31T07:00:32.000000Z",
+          "handler_name": "VideoHandler",
+          "vendor_id": "FFMP",
+          "encoder": "Lavc61.3.100 prores_ks",
+          "timecode": "01:29:11:18"
+        },
+        "disposition": "default"
+      },
+      {
+        "index": 1,
+        "codec_type": "data",
+        "codec_name": null,
+        "codec_long_name": null,
+        "profile": null,
+        "level": null,
+        "codec_tag_string": null,
+        "width": null,
+        "height": null,
+        "sample_aspect_ratio": null,
+        "display_aspect_ratio": null,
+        "pix_fmt": null,
+        "sample_fmt": null,
+        "sample_rate": null,
+        "channels": null,
+        "channel_layout": null,
+        "frame_size": null,
+        "bits_per_coded_sample": null,
+        "bits_per_raw_sample": null,
+        "color_range": null,
+        "color_space": null,
+        "color_transfer": null,
+        "color_primaries": null,
+        "chroma_location": null,
+        "r_frame_rate": null,
+        "avg_frame_rate": null,
+        "time_base": "1/60000",
+        "start_pts": 0,
+        "duration_ts": 87087,
+        "duration": 1.45145,
+        "bit_rate": null,
+        "nb_frames": 1,
+        "nb_read_frames": null,
+        "field_order": null,
+        "side_data_list": null,
+        "metadata": {
+          "creation_time": "2026-07-31T07:00:32.000000Z",
+          "language": "eng",
+          "handler_name": "TimeCodeHandler",
+          "timecode": "01:29:11:18"
+        },
+        "disposition": "default"
+      }
+    ]
+  },
+  "audio_comparison": {
+    "source_count": 0,
+    "generated_count": 0,
+    "pairs": []
+  },
+  "non_video_packet_audit": {
+    "source": [
+      {
+        "index": 1,
+        "type": "data",
+        "codec": null,
+        "packet_count": 1,
+        "packet_bytes": 4,
+        "packet_payload_sha256": "e6f421a883c39d88d5e4b906efe6ef551ea36452414e7c726e0f0011f0582980",
+        "status": "ok"
+      }
+    ],
+    "generated": [
+      {
+        "index": 1,
+        "type": "data",
+        "codec": null,
+        "packet_count": 1,
+        "packet_bytes": 4,
+        "packet_payload_sha256": "e6f421a883c39d88d5e4b906efe6ef551ea36452414e7c726e0f0011f0582980",
+        "status": "ok"
+      }
+    ]
+  },
+  "color_hdr_prores": {
+    "source": {
+      "codec": "prores",
+      "profile": "Standard",
+      "codec_tag": "apcn",
+      "pixel_format": "yuv422p10le",
+      "component_bit_depth": 10,
+      "chroma_subsampling": "4:2:2",
+      "alpha_channel": false,
+      "color_primaries": 1,
+      "color_transfer": 1,
+      "matrix_coefficients": 1,
+      "color_range": 1,
+      "chroma_location": null,
+      "hdr_pq_or_hlg": false,
+      "dynamic_range": "SDR or unknown; bit depth/gamut alone do not prove HDR",
+      "prores": true,
+      "prores_profile": "Standard"
+    },
+    "generated": {
+      "codec": "prores",
+      "profile": "Standard",
+      "codec_tag": "apcn",
+      "pixel_format": "yuv422p10le",
+      "component_bit_depth": 10,
+      "chroma_subsampling": "4:2:2",
+      "alpha_channel": false,
+      "color_primaries": 1,
+      "color_transfer": 1,
+      "matrix_coefficients": 1,
+      "color_range": 1,
+      "chroma_location": null,
+      "hdr_pq_or_hlg": false,
+      "dynamic_range": "SDR or unknown; bit depth/gamut alone do not prove HDR",
+      "prores": true,
+      "prores_profile": "Standard"
+    },
+    "comparison": {
+      "codec": {
+        "source": "prores",
+        "generated": "prores",
+        "equal": true
+      },
+      "profile": {
+        "source": "Standard",
+        "generated": "Standard",
+        "equal": true
+      },
+      "codec_tag": {
+        "source": "apcn",
+        "generated": "apcn",
+        "equal": true
+      },
+      "pixel_format": {
+        "source": "yuv422p10le",
+        "generated": "yuv422p10le",
+        "equal": true
+      },
+      "component_bit_depth": {
+        "source": 10,
+        "generated": 10,
+        "equal": true
+      },
+      "chroma_subsampling": {
+        "source": "4:2:2",
+        "generated": "4:2:2",
+        "equal": true
+      },
+      "alpha_channel": {
+        "source": false,
+        "generated": false,
+        "equal": true
+      },
+      "color_primaries": {
+        "source": 1,
+        "generated": 1,
+        "equal": true
+      },
+      "color_transfer": {
+        "source": 1,
+        "generated": 1,
+        "equal": true
+      },
+      "matrix_coefficients": {
+        "source": 1,
+        "generated": 1,
+        "equal": true
+      },
+      "color_range": {
+        "source": 1,
+        "generated": 1,
+        "equal": true
+      },
+      "chroma_location": {
+        "source": null,
+        "generated": null,
+        "equal": null
+      },
+      "hdr_pq_or_hlg": {
+        "source": false,
+        "generated": false,
+        "equal": true
+      },
+      "dynamic_range": {
+        "source": "SDR or unknown; bit depth/gamut alone do not prove HDR",
+        "generated": "SDR or unknown; bit depth/gamut alone do not prove HDR",
+        "equal": true
+      },
+      "prores": {
+        "source": true,
+        "generated": true,
+        "equal": true
+      },
+      "prores_profile": {
+        "source": "Standard",
+        "generated": "Standard",
+        "equal": true
+      }
+    },
+    "hdr_note": "PQ/HLG flags, component depth and color metadata are compared; metadata equality alone does not prove HDR visual fidelity.",
+    "prores_note": "For ProRes, also inspect profile, component depth, chroma subsampling and alpha."
+  },
+  "timeline": {
+    "method": "all decoded display-order frames; exact rational best_effort_timestamp * time_base",
+    "source_frames": 87,
+    "generated_frames": 87,
+    "equal_timestamp_frames": 87,
+    "all_timestamps_equal": true,
+    "all_display_intervals_equal": true,
+    "max_abs_timestamp_error_ms": 0.0,
+    "source_endpoint_seconds": 1.45145,
+    "generated_endpoint_seconds": 1.45145,
+    "endpoint_equal": true,
+    "decode_status": "ok"
+  },
+  "source_probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_type": "video",
+        "codec_name": "prores",
+        "codec_long_name": "Apple ProRes (iCodec Pro)",
+        "profile": "Standard",
+        "level": null,
+        "codec_tag_string": "apcn",
+        "width": 3840,
+        "height": 2160,
+        "sample_aspect_ratio": "1",
+        "display_aspect_ratio": null,
+        "pix_fmt": "yuv422p10le",
+        "sample_fmt": null,
+        "sample_rate": null,
+        "channels": null,
+        "channel_layout": null,
+        "frame_size": null,
+        "bits_per_coded_sample": 24,
+        "bits_per_raw_sample": null,
+        "color_range": 1,
+        "color_space": 1,
+        "color_transfer": 1,
+        "color_primaries": 1,
+        "chroma_location": null,
+        "r_frame_rate": "60000/1001",
+        "avg_frame_rate": "60000/1001",
+        "time_base": "1/60000",
+        "start_pts": 0,
+        "duration_ts": 87087,
+        "duration": 1.45145,
+        "bit_rate": 1077382644,
+        "nb_frames": 87,
+        "nb_read_frames": null,
+        "field_order": null,
+        "side_data_list": null,
+        "metadata": {
+          "creation_time": "2026-07-31T07:00:32.000000Z",
+          "handler_name": "VideoHandler",
+          "vendor_id": "appl",
+          "encoder": "Apple ProRes 422",
+          "timecode": "01:29:16;42"
+        },
+        "disposition": "default"
+      },
+      {
+        "index": 1,
+        "codec_type": "data",
+        "codec_name": null,
+        "codec_long_name": null,
+        "profile": null,
+        "level": null,
+        "codec_tag_string": null,
+        "width": null,
+        "height": null,
+        "sample_aspect_ratio": null,
+        "display_aspect_ratio": null,
+        "pix_fmt": null,
+        "sample_fmt": null,
+        "sample_rate": null,
+        "channels": null,
+        "channel_layout": null,
+        "frame_size": null,
+        "bits_per_coded_sample": null,
+        "bits_per_raw_sample": null,
+        "color_range": null,
+        "color_space": null,
+        "color_transfer": null,
+        "color_primaries": null,
+        "chroma_location": null,
+        "r_frame_rate": null,
+        "avg_frame_rate": null,
+        "time_base": "1/60000",
+        "start_pts": 0,
+        "duration_ts": 87087,
+        "duration": 1.45145,
+        "bit_rate": null,
+        "nb_frames": 1,
+        "nb_read_frames": null,
+        "field_order": null,
+        "side_data_list": null,
+        "metadata": {
+          "creation_time": "2026-07-31T07:00:32.000000Z",
+          "language": "eng",
+          "handler_name": "TimeCodeHandler",
+          "timecode": "01:29:16;42"
+        },
+        "disposition": "default"
+      }
+    ],
+    "format": {
+      "filename": "/app/runtime/uploads/d1f2b2c2a3cd4c04b58bfd4b6b192439.mov",
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": 0.0,
+      "duration": 1.45145,
+      "size": 195473001,
+      "bit_rate": 1077394335,
+      "metadata": {
+        "major_brand": "qt  ",
+        "minor_version": "512",
+        "compatible_brands": "qt  ",
+        "creation_time": "2026-07-31T07:00:32.000000Z",
+        "encoder": "Blackmagic Design DaVinci Resolve Studio"
+      }
+    }
+  },
+  "generated_probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_type": "video",
+        "codec_name": "prores",
+        "codec_long_name": "Apple ProRes (iCodec Pro)",
+        "profile": "Standard",
+        "level": null,
+        "codec_tag_string": "apcn",
+        "width": 3840,
+        "height": 2160,
+        "sample_aspect_ratio": null,
+        "display_aspect_ratio": null,
+        "pix_fmt": "yuv422p10le",
+        "sample_fmt": null,
+        "sample_rate": null,
+        "channels": null,
+        "channel_layout": null,
+        "frame_size": null,
+        "bits_per_coded_sample": 24,
+        "bits_per_raw_sample": null,
+        "color_range": 1,
+        "color_space": 1,
+        "color_transfer": 1,
+        "color_primaries": 1,
+        "chroma_location": null,
+        "r_frame_rate": "60000/1001",
+        "avg_frame_rate": "60000/1001",
+        "time_base": "1/60000",
+        "start_pts": 0,
+        "duration_ts": 87087,
+        "duration": 1.45145,
+        "bit_rate": 1085441851,
+        "nb_frames": 87,
+        "nb_read_frames": null,
+        "field_order": null,
+        "side_data_list": null,
+        "metadata": {
+          "creation_time": "2026-07-31T07:00:32.000000Z",
+          "handler_name": "VideoHandler",
+          "vendor_id": "FFMP",
+          "encoder": "Lavc61.3.100 prores_ks",
+          "timecode": "01:29:11:18"
+        },
+        "disposition": "default"
+      },
+      {
+        "index": 1,
+        "codec_type": "data",
+        "codec_name": null,
+        "codec_long_name": null,
+        "profile": null,
+        "level": null,
+        "codec_tag_string": null,
+        "width": null,
+        "height": null,
+        "sample_aspect_ratio": null,
+        "display_aspect_ratio": null,
+        "pix_fmt": null,
+        "sample_fmt": null,
+        "sample_rate": null,
+        "channels": null,
+        "channel_layout": null,
+        "frame_size": null,
+        "bits_per_coded_sample": null,
+        "bits_per_raw_sample": null,
+        "color_range": null,
+        "color_space": null,
+        "color_transfer": null,
+        "color_primaries": null,
+        "chroma_location": null,
+        "r_frame_rate": null,
+        "avg_frame_rate": null,
+        "time_base": "1/60000",
+        "start_pts": 0,
+        "duration_ts": 87087,
+        "duration": 1.45145,
+        "bit_rate": null,
+        "nb_frames": 1,
+        "nb_read_frames": null,
+        "field_order": null,
+        "side_data_list": null,
+        "metadata": {
+          "creation_time": "2026-07-31T07:00:32.000000Z",
+          "language": "eng",
+          "handler_name": "TimeCodeHandler",
+          "timecode": "01:29:11:18"
+        },
+        "disposition": "default"
+      }
+    ],
+    "format": {
+      "filename": "/app/runtime/color_grading/upstream/9830ab8d-e8a7-4f91-8265-33f02c5bcf13/graded.mov",
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": 0.0,
+      "duration": 1.45145,
+      "size": 196935125,
+      "bit_rate": 1085453167,
+      "metadata": {
+        "major_brand": "qt  ",
+        "minor_version": "512",
+        "compatible_brands": "qt  ",
+        "creation_time": "2026-07-31T07:00:32.000000Z",
+        "encoder": "Lavf61.1.100"
+      }
+    }
+  }
+}

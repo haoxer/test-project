@@ -1,0 +1,17 @@
+{
+  "method": "both 3D LUTs are linearly evaluated on the same uniform RGB grid; no video content weighting",
+  "ground_truth": "/app/runtime/uploads/color_grading_benchmark/Marco/active_lut.cube",
+  "generated": "/app/runtime/color_grading/upstream/9830ab8d-e8a7-4f91-8265-33f02c5bcf13/grading.cube",
+  "ground_truth_size": 33,
+  "generated_size": 16,
+  "comparison_grid_size": 33,
+  "sample_count": 35937,
+  "mae": 0.13751351535870412,
+  "rmse": 0.2224722238890912,
+  "max_abs_error": 0.979728,
+  "psnr_db": 13.054484077005792,
+  "psnr_infinite": false,
+  "rgb_distance_mean": 0.3126020263044303,
+  "rgb_distance_median": 0.24474852145448192,
+  "rgb_distance_p95": 0.7720218652779655
+}

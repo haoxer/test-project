@@ -1,0 +1,673 @@
+{
+  "method": "same timestamps sampled uniformly over common duration; decoded full-resolution RGB24 for PSNR/SSIM/RGB MAE and CIEDE2000; CIEDE2000 converts sRGB to CIE Lab D65; LPIPS uses a 256x256 RGB downsample",
+  "target_video": "/app/runtime/uploads/color_grading_benchmark/Marco/Marco‘s African Place-04__20260717_A1M2-5503_1493_LUT调色.mov",
+  "generated_video": "/app/runtime/color_grading/upstream/9830ab8d-e8a7-4f91-8265-33f02c5bcf13/graded.mov",
+  "sample_count": 12,
+  "width": 3840,
+  "height": 2160,
+  "video_stream_fields": {
+    "codec_name": {
+      "source": "prores",
+      "generated": "prores",
+      "equal": true
+    },
+    "profile": {
+      "source": "Standard",
+      "generated": "Standard",
+      "equal": true
+    },
+    "level": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "codec_tag_string": {
+      "source": "apcn",
+      "generated": "apcn",
+      "equal": true
+    },
+    "width": {
+      "source": 3840,
+      "generated": 3840,
+      "equal": true
+    },
+    "height": {
+      "source": 2160,
+      "generated": 2160,
+      "equal": true
+    },
+    "sample_aspect_ratio": {
+      "source": "1",
+      "generated": null,
+      "equal": null
+    },
+    "display_aspect_ratio": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "pix_fmt": {
+      "source": "yuv422p10le",
+      "generated": "yuv422p10le",
+      "equal": true
+    },
+    "bits_per_raw_sample": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "color_range": {
+      "source": 1,
+      "generated": 1,
+      "equal": true
+    },
+    "color_space": {
+      "source": 1,
+      "generated": 1,
+      "equal": true
+    },
+    "color_transfer": {
+      "source": 1,
+      "generated": 1,
+      "equal": true
+    },
+    "color_primaries": {
+      "source": 1,
+      "generated": 1,
+      "equal": true
+    },
+    "chroma_location": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "r_frame_rate": {
+      "source": "60000/1001",
+      "generated": "60000/1001",
+      "equal": true
+    },
+    "avg_frame_rate": {
+      "source": "60000/1001",
+      "generated": "60000/1001",
+      "equal": true
+    },
+    "time_base": {
+      "source": "1/60000",
+      "generated": "1/60000",
+      "equal": true
+    },
+    "start_pts": {
+      "source": 0,
+      "generated": 0,
+      "equal": true
+    },
+    "duration_ts": {
+      "source": 87087,
+      "generated": 87087,
+      "equal": true
+    },
+    "duration": {
+      "source": 1.45145,
+      "generated": 1.45145,
+      "equal": true
+    },
+    "bit_rate": {
+      "source": 1240249389,
+      "generated": 1085441851,
+      "equal": false
+    },
+    "nb_frames": {
+      "source": 87,
+      "generated": 87,
+      "equal": true
+    },
+    "nb_read_frames": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "field_order": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    },
+    "side_data_list": {
+      "source": null,
+      "generated": null,
+      "equal": null
+    }
+  },
+  "container_fields": {
+    "format_name": {
+      "source": "mov,mp4,m4a,3gp,3g2,mj2",
+      "generated": "mov,mp4,m4a,3gp,3g2,mj2",
+      "equal": true
+    },
+    "format_long_name": {
+      "source": "QuickTime / MOV",
+      "generated": "QuickTime / MOV",
+      "equal": true
+    },
+    "start_time": {
+      "source": 0.0,
+      "generated": 0.0,
+      "equal": true
+    },
+    "duration": {
+      "source": 1.45145,
+      "generated": 1.45145,
+      "equal": true
+    },
+    "size": {
+      "source": 225022049,
+      "generated": 196935125,
+      "equal": false
+    },
+    "bit_rate": {
+      "source": 1240260699,
+      "generated": 1085453167,
+      "equal": false
+    },
+    "metadata": {
+      "source": {
+        "major_brand": "qt  ",
+        "minor_version": "512",
+        "compatible_brands": "qt  ",
+        "creation_time": "2026-07-31T07:00:32.000000Z",
+        "encoder": "Lavf58.45.100"
+      },
+      "generated": {
+        "major_brand": "qt  ",
+        "minor_version": "512",
+        "compatible_brands": "qt  ",
+        "creation_time": "2026-07-31T07:00:32.000000Z",
+        "encoder": "Lavf61.1.100"
+      },
+      "equal": false
+    }
+  },
+  "color_hdr_prores": {
+    "target": {
+      "codec": "prores",
+      "profile": "Standard",
+      "codec_tag": "apcn",
+      "pixel_format": "yuv422p10le",
+      "component_bit_depth": 10,
+      "chroma_subsampling": "4:2:2",
+      "alpha_channel": false,
+      "color_primaries": 1,
+      "color_transfer": 1,
+      "matrix_coefficients": 1,
+      "color_range": 1,
+      "chroma_location": null,
+      "hdr_pq_or_hlg": false,
+      "dynamic_range": "SDR or unknown; bit depth/gamut alone do not prove HDR",
+      "prores": true,
+      "prores_profile": "Standard"
+    },
+    "generated": {
+      "codec": "prores",
+      "profile": "Standard",
+      "codec_tag": "apcn",
+      "pixel_format": "yuv422p10le",
+      "component_bit_depth": 10,
+      "chroma_subsampling": "4:2:2",
+      "alpha_channel": false,
+      "color_primaries": 1,
+      "color_transfer": 1,
+      "matrix_coefficients": 1,
+      "color_range": 1,
+      "chroma_location": null,
+      "hdr_pq_or_hlg": false,
+      "dynamic_range": "SDR or unknown; bit depth/gamut alone do not prove HDR",
+      "prores": true,
+      "prores_profile": "Standard"
+    }
+  },
+  "timeline": {
+    "target_frames": 87,
+    "generated_frames": 87,
+    "equal_timestamp_frames": 87,
+    "all_timestamps_equal": true,
+    "all_display_intervals_equal": true,
+    "max_abs_timestamp_error_ms": 0.0,
+    "target_endpoint_seconds": 1.45145,
+    "generated_endpoint_seconds": 1.45145,
+    "endpoint_equal": true
+  },
+  "means": {
+    "psnr_db": 29.627753539345775,
+    "rgb_ssim": 0.946092372139295,
+    "normalized_luma_ssim": 0.999942863980929,
+    "edge_correlation": 0.9282049985410327,
+    "lpips_alex_256": 0.042216007287303604,
+    "rgb_mae_0_255": 6.0970215400060015,
+    "delta_e_2000_mean": 4.504606127738953,
+    "delta_e_2000_median": 4.314162770907084,
+    "delta_e_2000_p95": 7.7279079755147295,
+    "delta_e_2000_max": 17.777552604675293,
+    "changed_pixel_fraction": 0.999973245000643
+  },
+  "lpips": {
+    "available": true,
+    "error": null,
+    "lower_is_better": true
+  },
+  "delta_e_2000": {
+    "available": true,
+    "lower_is_better": true,
+    "color_space": "CIE Lab D65 converted from decoded sRGB RGB24",
+    "primary_statistic": "means.delta_e_2000_mean",
+    "note": "0 means no perceptible color difference in the evaluated RGB24 representation; interpretation thresholds depend on viewing conditions"
+  },
+  "samples": [
+    {
+      "sample": 0,
+      "timestamp_seconds": 0.11165,
+      "identical_rgb": false,
+      "changed_pixel_fraction": 0.9999787808641976,
+      "rgb_mae_0_255": 6.198793888092041,
+      "psnr_db": 29.56982618498301,
+      "psnr_infinite": false,
+      "rgb_ssim": 0.9425368905067444,
+      "normalized_luma_ssim": 0.9999440908432007,
+      "edge_correlation": 0.9418967577305515,
+      "left_rgb_mean_0_1": [
+        0.3059821128845215,
+        0.18013282120227814,
+        0.11557285487651825
+      ],
+      "right_rgb_mean_0_1": [
+        0.32560113072395325,
+        0.19334837794303894,
+        0.12889723479747772
+      ],
+      "left_black_or_white_fraction": 0.0001551247427983539,
+      "right_black_or_white_fraction": 0.0004779931841563786,
+      "lpips_alex_256": 0.04263573884963989,
+      "delta_e_2000_mean": 4.547241687774658,
+      "delta_e_2000_median": 4.495564937591553,
+      "delta_e_2000_p95": 7.401771068572998,
+      "delta_e_2000_max": 17.005704879760742,
+      "visuals": {
+        "overview": "ground_truth_generated_visuals/pair_000.jpg",
+        "center_crop_1_to_1": "ground_truth_generated_visuals/pair_000_crop_1to1.png",
+        "difference_x4": "ground_truth_generated_visuals/pair_000_diff_x4.png"
+      }
+    },
+    {
+      "sample": 1,
+      "timestamp_seconds": 0.2233,
+      "identical_rgb": false,
+      "changed_pixel_fraction": 0.9999685329861111,
+      "rgb_mae_0_255": 6.104480266571045,
+      "psnr_db": 29.670252817071358,
+      "psnr_infinite": false,
+      "rgb_ssim": 0.9451183676719666,
+      "normalized_luma_ssim": 0.9999414086341858,
+      "edge_correlation": 0.9364479156718887,
+      "left_rgb_mean_0_1": [
+        0.30667608976364136,
+        0.17682097852230072,
+        0.11252989619970322
+      ],
+      "right_rgb_mean_0_1": [
+        0.32814013957977295,
+        0.18910127878189087,
+        0.1261991560459137
+      ],
+      "left_black_or_white_fraction": 0.0001482124485596708,
+      "right_black_or_white_fraction": 0.00037193769290123457,
+      "lpips_alex_256": 0.04214724153280258,
+      "delta_e_2000_mean": 4.429903030395508,
+      "delta_e_2000_median": 4.355466842651367,
+      "delta_e_2000_p95": 7.372349739074707,
+      "delta_e_2000_max": 17.109642028808594,
+      "visuals": {
+        "overview": "ground_truth_generated_visuals/pair_001.jpg",
+        "center_crop_1_to_1": "ground_truth_generated_visuals/pair_001_crop_1to1.png",
+        "difference_x4": "ground_truth_generated_visuals/pair_001_diff_x4.png"
+      }
+    },
+    {
+      "sample": 2,
+      "timestamp_seconds": 0.33494999999999997,
+      "identical_rgb": false,
+      "changed_pixel_fraction": 0.9999768518518518,
+      "rgb_mae_0_255": 6.0289626121521,
+      "psnr_db": 29.711661685106332,
+      "psnr_infinite": false,
+      "rgb_ssim": 0.9460288882255554,
+      "normalized_luma_ssim": 0.9999358654022217,
+      "edge_correlation": 0.9278168494578362,
+      "left_rgb_mean_0_1": [
+        0.30064329504966736,
+        0.16962477564811707,
+        0.1073489561676979
+      ],
+      "right_rgb_mean_0_1": [
+        0.3231121897697449,
+        0.18199363350868225,
+        0.12148838490247726
+      ],
+      "left_black_or_white_fraction": 0.0001754195601851852,
+      "right_black_or_white_fraction": 0.0003543756430041152,
+      "lpips_alex_256": 0.04116077348589897,
+      "delta_e_2000_mean": 4.349958419799805,
+      "delta_e_2000_median": 4.236867904663086,
+      "delta_e_2000_p95": 7.399908542633057,
+      "delta_e_2000_max": 17.486459732055664,
+      "visuals": {
+        "overview": "ground_truth_generated_visuals/pair_002.jpg",
+        "center_crop_1_to_1": "ground_truth_generated_visuals/pair_002_crop_1to1.png",
+        "difference_x4": "ground_truth_generated_visuals/pair_002_diff_x4.png"
+      }
+    },
+    {
+      "sample": 3,
+      "timestamp_seconds": 0.4466,
+      "identical_rgb": false,
+      "changed_pixel_fraction": 0.9999633487654321,
+      "rgb_mae_0_255": 5.974210262298584,
+      "psnr_db": 29.764263438686342,
+      "psnr_infinite": false,
+      "rgb_ssim": 0.9463586807250977,
+      "normalized_luma_ssim": 0.99993497133255,
+      "edge_correlation": 0.9238142786362583,
+      "left_rgb_mean_0_1": [
+        0.29842859506607056,
+        0.16702081263065338,
+        0.10571939498186111
+      ],
+      "right_rgb_mean_0_1": [
+        0.32145944237709045,
+        0.1796993464231491,
+        0.11987712234258652
+      ],
+      "left_black_or_white_fraction": 0.00015026202417695473,
+      "right_black_or_white_fraction": 0.00026282793209876545,
+      "lpips_alex_256": 0.03867366537451744,
+      "delta_e_2000_mean": 4.301994800567627,
+      "delta_e_2000_median": 4.173766613006592,
+      "delta_e_2000_p95": 7.407381534576416,
+      "delta_e_2000_max": 17.863216400146484,
+      "visuals": {
+        "overview": "ground_truth_generated_visuals/pair_003.jpg",
+        "center_crop_1_to_1": "ground_truth_generated_visuals/pair_003_crop_1to1.png",
+        "difference_x4": "ground_truth_generated_visuals/pair_003_diff_x4.png"
+      }
+    },
+    {
+      "sample": 4,
+      "timestamp_seconds": 0.55825,
+      "identical_rgb": false,
+      "changed_pixel_fraction": 0.9999680507330246,
+      "rgb_mae_0_255": 6.100008487701416,
+      "psnr_db": 29.571890988716994,
+      "psnr_infinite": false,
+      "rgb_ssim": 0.946359395980835,
+      "normalized_luma_ssim": 0.9999333024024963,
+      "edge_correlation": 0.9182096196886579,
+      "left_rgb_mean_0_1": [
+        0.30240291357040405,
+        0.1669689565896988,
+        0.10515144467353821
+      ],
+      "right_rgb_mean_0_1": [
+        0.3269346058368683,
+        0.18028101325035095,
+        0.11926192790269852
+      ],
+      "left_black_or_white_fraction": 0.00018024209104938271,
+      "right_black_or_white_fraction": 0.00029228555812757203,
+      "lpips_alex_256": 0.04001423716545105,
+      "delta_e_2000_mean": 4.35123872756958,
+      "delta_e_2000_median": 4.214971542358398,
+      "delta_e_2000_p95": 7.4416961669921875,
+      "delta_e_2000_max": 17.54360580444336,
+      "visuals": {
+        "overview": "ground_truth_generated_visuals/pair_004.jpg",
+        "center_crop_1_to_1": "ground_truth_generated_visuals/pair_004_crop_1to1.png",
+        "difference_x4": "ground_truth_generated_visuals/pair_004_diff_x4.png"
+      }
+    },
+    {
+      "sample": 5,
+      "timestamp_seconds": 0.6698999999999999,
+      "identical_rgb": false,
+      "changed_pixel_fraction": 0.9999704619984567,
+      "rgb_mae_0_255": 6.164546489715576,
+      "psnr_db": 29.499251550321247,
+      "psnr_infinite": false,
+      "rgb_ssim": 0.9458386301994324,
+      "normalized_luma_ssim": 0.9999324679374695,
+      "edge_correlation": 0.9105001601914204,
+      "left_rgb_mean_0_1": [
+        0.3028995096683502,
+        0.16853037476539612,
+        0.10742457956075668
+      ],
+      "right_rgb_mean_0_1": [
+        0.32760754227638245,
+        0.18223702907562256,
+        0.12128019332885742
+      ],
+      "left_black_or_white_fraction": 0.00018864133230452675,
+      "right_black_or_white_fraction": 0.00030156893004115227,
+      "lpips_alex_256": 0.04088615998625755,
+      "delta_e_2000_mean": 4.419921875,
+      "delta_e_2000_median": 4.254544734954834,
+      "delta_e_2000_p95": 7.55552339553833,
+      "delta_e_2000_max": 17.857318878173828,
+      "visuals": {
+        "overview": "ground_truth_generated_visuals/pair_005.jpg",
+        "center_crop_1_to_1": "ground_truth_generated_visuals/pair_005_crop_1to1.png",
+        "difference_x4": "ground_truth_generated_visuals/pair_005_diff_x4.png"
+      }
+    },
+    {
+      "sample": 6,
+      "timestamp_seconds": 0.78155,
+      "identical_rgb": false,
+      "changed_pixel_fraction": 0.9999678096064815,
+      "rgb_mae_0_255": 6.167568206787109,
+      "psnr_db": 29.5014620530017,
+      "psnr_infinite": false,
+      "rgb_ssim": 0.9461103677749634,
+      "normalized_luma_ssim": 0.9999371767044067,
+      "edge_correlation": 0.910986526755609,
+      "left_rgb_mean_0_1": [
+        0.3012177050113678,
+        0.17186647653579712,
+        0.11231036484241486
+      ],
+      "right_rgb_mean_0_1": [
+        0.32469117641448975,
+        0.18578951060771942,
+        0.12548312544822693
+      ],
+      "left_black_or_white_fraction": 0.00017481674382716048,
+      "right_black_or_white_fraction": 0.00030016235853909466,
+      "lpips_alex_256": 0.0422530397772789,
+      "delta_e_2000_mean": 4.490920543670654,
+      "delta_e_2000_median": 4.282622337341309,
+      "delta_e_2000_p95": 7.720744609832764,
+      "delta_e_2000_max": 17.793659210205078,
+      "visuals": {
+        "overview": "ground_truth_generated_visuals/pair_006.jpg",
+        "center_crop_1_to_1": "ground_truth_generated_visuals/pair_006_crop_1to1.png",
+        "difference_x4": "ground_truth_generated_visuals/pair_006_diff_x4.png"
+      }
+    },
+    {
+      "sample": 7,
+      "timestamp_seconds": 0.8932,
+      "identical_rgb": false,
+      "changed_pixel_fraction": 0.9999675684799383,
+      "rgb_mae_0_255": 6.119226932525635,
+      "psnr_db": 29.59463311868832,
+      "psnr_infinite": false,
+      "rgb_ssim": 0.9460821151733398,
+      "normalized_luma_ssim": 0.9999444484710693,
+      "edge_correlation": 0.9244075510963856,
+      "left_rgb_mean_0_1": [
+        0.2977960705757141,
+        0.17809440195560455,
+        0.11964552104473114
+      ],
+      "right_rgb_mean_0_1": [
+        0.3197764456272125,
+        0.1909973919391632,
+        0.13147951662540436
+      ],
+      "left_black_or_white_fraction": 0.00017791120113168723,
+      "right_black_or_white_fraction": 0.00033259387860082307,
+      "lpips_alex_256": 0.0444624125957489,
+      "delta_e_2000_mean": 4.562976837158203,
+      "delta_e_2000_median": 4.3300628662109375,
+      "delta_e_2000_p95": 7.891082286834717,
+      "delta_e_2000_max": 17.8792781829834,
+      "visuals": {
+        "overview": "ground_truth_generated_visuals/pair_007.jpg",
+        "center_crop_1_to_1": "ground_truth_generated_visuals/pair_007_crop_1to1.png",
+        "difference_x4": "ground_truth_generated_visuals/pair_007_diff_x4.png"
+      }
+    },
+    {
+      "sample": 8,
+      "timestamp_seconds": 1.00485,
+      "identical_rgb": false,
+      "changed_pixel_fraction": 0.999977695794753,
+      "rgb_mae_0_255": 6.099746227264404,
+      "psnr_db": 29.65376682012879,
+      "psnr_infinite": false,
+      "rgb_ssim": 0.9465880393981934,
+      "normalized_luma_ssim": 0.9999487996101379,
+      "edge_correlation": 0.9295751782789732,
+      "left_rgb_mean_0_1": [
+        0.29562023282051086,
+        0.18217119574546814,
+        0.1250944584608078
+      ],
+      "right_rgb_mean_0_1": [
+        0.31600698828697205,
+        0.19469237327575684,
+        0.13614894449710846
+      ],
+      "left_black_or_white_fraction": 0.00014640399948559672,
+      "right_black_or_white_fraction": 0.0002838059413580247,
+      "lpips_alex_256": 0.04445155709981918,
+      "delta_e_2000_mean": 4.635753154754639,
+      "delta_e_2000_median": 4.384497165679932,
+      "delta_e_2000_p95": 8.05085563659668,
+      "delta_e_2000_max": 17.9434814453125,
+      "visuals": {
+        "overview": "ground_truth_generated_visuals/pair_008.jpg",
+        "center_crop_1_to_1": "ground_truth_generated_visuals/pair_008_crop_1to1.png",
+        "difference_x4": "ground_truth_generated_visuals/pair_008_diff_x4.png"
+      }
+    },
+    {
+      "sample": 9,
+      "timestamp_seconds": 1.1165,
+      "identical_rgb": false,
+      "changed_pixel_fraction": 0.9999729938271605,
+      "rgb_mae_0_255": 6.129657745361328,
+      "psnr_db": 29.620825424955708,
+      "psnr_infinite": false,
+      "rgb_ssim": 0.946695864200592,
+      "normalized_luma_ssim": 0.9999514222145081,
+      "edge_correlation": 0.9361561228020326,
+      "left_rgb_mean_0_1": [
+        0.2957020103931427,
+        0.18537478148937225,
+        0.12912942469120026
+      ],
+      "right_rgb_mean_0_1": [
+        0.31576311588287354,
+        0.19799815118312836,
+        0.13944700360298157
+      ],
+      "left_black_or_white_fraction": 0.00014178240740740742,
+      "right_black_or_white_fraction": 0.00025133423353909467,
+      "lpips_alex_256": 0.04491635411977768,
+      "delta_e_2000_mean": 4.680173873901367,
+      "delta_e_2000_median": 4.410949230194092,
+      "delta_e_2000_p95": 8.181864738464355,
+      "delta_e_2000_max": 18.072710037231445,
+      "visuals": {
+        "overview": "ground_truth_generated_visuals/pair_009.jpg",
+        "center_crop_1_to_1": "ground_truth_generated_visuals/pair_009_crop_1to1.png",
+        "difference_x4": "ground_truth_generated_visuals/pair_009_diff_x4.png"
+      }
+    },
+    {
+      "sample": 10,
+      "timestamp_seconds": 1.22815,
+      "identical_rgb": false,
+      "changed_pixel_fraction": 0.9999821566358025,
+      "rgb_mae_0_255": 5.938313961029053,
+      "psnr_db": 29.85681031546946,
+      "psnr_infinite": false,
+      "rgb_ssim": 0.9498757123947144,
+      "normalized_luma_ssim": 0.9999558329582214,
+      "edge_correlation": 0.9362950620297681,
+      "left_rgb_mean_0_1": [
+        0.3013456165790558,
+        0.19076085090637207,
+        0.1325145810842514
+      ],
+      "right_rgb_mean_0_1": [
+        0.32183727622032166,
+        0.20168712735176086,
+        0.14309202134609222
+      ],
+      "left_black_or_white_fraction": 0.00012221096965020576,
+      "right_black_or_white_fraction": 0.0002756076388888889,
+      "lpips_alex_256": 0.042813464999198914,
+      "delta_e_2000_mean": 4.576535224914551,
+      "delta_e_2000_median": 4.246601581573486,
+      "delta_e_2000_p95": 8.05451488494873,
+      "delta_e_2000_max": 17.89899253845215,
+      "visuals": {
+        "overview": "ground_truth_generated_visuals/pair_010.jpg",
+        "center_crop_1_to_1": "ground_truth_generated_visuals/pair_010_crop_1to1.png",
+        "difference_x4": "ground_truth_generated_visuals/pair_010_diff_x4.png"
+      }
+    },
+    {
+      "sample": 11,
+      "timestamp_seconds": 1.3397999999999999,
+      "identical_rgb": false,
+      "changed_pixel_fraction": 0.9999846884645062,
+      "rgb_mae_0_255": 6.1387434005737305,
+      "psnr_db": 29.51839807502004,
+      "psnr_infinite": false,
+      "rgb_ssim": 0.945515513420105,
+      "normalized_luma_ssim": 0.9999545812606812,
+      "edge_correlation": 0.9423539601530112,
+      "left_rgb_mean_0_1": [
+        0.298052042722702,
+        0.18679529428482056,
+        0.1307801455259323
+      ],
+      "right_rgb_mean_0_1": [
+        0.31904739141464233,
+        0.19958843290805817,
+        0.14152498543262482
+      ],
+      "left_black_or_white_fraction": 0.00017545974794238683,
+      "right_black_or_white_fraction": 0.0005538676697530864,
+      "lpips_alex_256": 0.04217744246125221,
+      "delta_e_2000_mean": 4.70865535736084,
+      "delta_e_2000_median": 4.384037494659424,
+      "delta_e_2000_p95": 8.257203102111816,
+      "delta_e_2000_max": 18.876562118530273,
+      "visuals": {
+        "overview": "ground_truth_generated_visuals/pair_011.jpg",
+        "center_crop_1_to_1": "ground_truth_generated_visuals/pair_011_crop_1to1.png",
+        "difference_x4": "ground_truth_generated_visuals/pair_011_diff_x4.png"
+      }
+    }
+  ]
+}
